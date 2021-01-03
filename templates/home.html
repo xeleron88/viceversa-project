@@ -4,10 +4,9 @@
 </head>
 <body>
 	<h1>Vice Versa</h1>
-<form action="/action_page.php">
+<form action="{% url 'Reverse' %}">
 
-<textarea id="w3review" name="w3review" rows="15" cols="50">
-  Input the text
+<textarea  rows="15" cols="50" name="usertext">
   </textarea>
   <br><br>
   <input type="submit" value="Reverse">
